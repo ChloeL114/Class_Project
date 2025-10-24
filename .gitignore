@@ -1,0 +1,65 @@
+# =========================
+# Python general
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.db
+*.pkl
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Data files
+# =========================
+# Ignore raw data — these can be reloaded locally
+data/raw/
+*.csv
+*.xlsx
+*.json
+*.ods
+
+# =========================
+# IDE / Editor files
+# =========================
+# PyCharm
+.idea/
+# VS Code (in case you ever switch)
+.vscode/
+
+# =========================
+# Streamlit + Flask cache
+# =========================
+.streamlit/
+.cache/
+__pycache__/
+instance/
+flask_session/
+
+# =========================
+# Build / Distribution artifacts
+# =========================
+build/
+dist/
+*.spec
+
+# =========================
+# OS-specific files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Reports / temporary notebooks
+# =========================
+*.ipynb_checkpoints/
